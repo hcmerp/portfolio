@@ -8,7 +8,7 @@ import Navbar from '../components/navbar';
 import CursorFollower from '../components/dot';
 import Footer from '../components/footer';
 
-const compete = () => {
+const About = () => {
     return (
         <main>
             <CursorFollower />
@@ -18,4 +18,4 @@ const compete = () => {
     )
 }
 
-export default compete;
+export default About;

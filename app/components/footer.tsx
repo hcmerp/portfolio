@@ -3,6 +3,8 @@
 import { footer } from "framer-motion/client";
 import { link } from "fs";
 import colors from "tailwindcss/colors";
+import Works from "../work/page";
+import About from "../about/page";
 
 const Footer = () => {
   return (
@@ -29,7 +31,7 @@ const Footer = () => {
         <div className="flex items-center gap-10">
           {[
             { label: "About", href: "./about" },
-            { label: "Works", href: "#" },
+            { label: "Works", href: "./work" },
             { label: "Competition", href: "./competition" },
           ].map((link) => (
             <a
